@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Sorts">
+      <UniqueIdentifier>{668a0132-8863-4ec2-ab6a-fa40238d6f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Sorts">
+      <UniqueIdentifier>{5a5658a7-d8e4-4bfe-9e0d-d41157bd244b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SortingVisualization.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="COpenGLTextRender.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="COpenGLRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="COpenGLView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CArrayDataRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSortProvider.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CBubbleSort.h">
+      <Filter>头文件\Sorts</Filter>
+    </ClInclude>
+    <ClInclude Include="CHeapSort.h">
+      <Filter>头文件\Sorts</Filter>
+    </ClInclude>
+    <ClInclude Include="CInsertionSort.h">
+      <Filter>头文件\Sorts</Filter>
+    </ClInclude>
+    <ClInclude Include="CMergeSort.h">
+      <Filter>头文件\Sorts</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuickSort.h">
+      <Filter>头文件\Sorts</Filter>
+    </ClInclude>
+    <ClInclude Include="CSelectionSort.h">
+      <Filter>头文件\Sorts</Filter>
+    </ClInclude>
+    <ClInclude Include="CRadixSort.h">
+      <Filter>头文件\Sorts</Filter>
+    </ClInclude>
+    <ClInclude Include="CShellSort.h">
+      <Filter>头文件\Sorts</Filter>
+    </ClInclude>
+    <ClInclude Include="CRandomData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SortingVisualization.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="COpenGLTextRender.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="COpenGLRenderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="COpenGLView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CArrayDataRenderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSortProvider.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CBubbleSort.cpp">
+      <Filter>源文件\Sorts</Filter>
+    </ClCompile>
+    <ClCompile Include="CHeapSort.cpp">
+      <Filter>源文件\Sorts</Filter>
+    </ClCompile>
+    <ClCompile Include="CInsertionSort.cpp">
+      <Filter>源文件\Sorts</Filter>
+    </ClCompile>
+    <ClCompile Include="CMergeSort.cpp">
+      <Filter>源文件\Sorts</Filter>
+    </ClCompile>
+    <ClCompile Include="CQuickSort.cpp">
+      <Filter>源文件\Sorts</Filter>
+    </ClCompile>
+    <ClCompile Include="CRadixSort.cpp">
+      <Filter>源文件\Sorts</Filter>
+    </ClCompile>
+    <ClCompile Include="CSelectionSort.cpp">
+      <Filter>源文件\Sorts</Filter>
+    </ClCompile>
+    <ClCompile Include="CShellSort.cpp">
+      <Filter>源文件\Sorts</Filter>
+    </ClCompile>
+    <ClCompile Include="CRandomData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SortingVisualization.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="SortingVisualization.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
